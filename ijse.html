@@ -75,23 +75,44 @@
 </head>
 
 <body>
+
     <table border="1" style="border-collapse: collapse;">
         <tr> <!-- table row -->
-            <th>Name</th><!-- table headers -->
+            <th colspan="2">Name</th><!-- table headers -->
             <th>Contact</th>
             <th>Email</th>
         </tr>
         <tr>
             <td>Kamal</td><!-- table data -->
+            <td>Silva</td>
             <td>0789154821</td>
             <td>test@gmail.com</td>
         </tr>
         <tr>
             <td>Nimal</td><!-- table data -->
+            <td>Silva</td>
             <td>0764640457</td>
             <td>test2@gmail.com</td>
         </tr>
 
+    </table>
+
+    <table border="1" style="border-collapse: collapse;">
+        <tr>
+            <th>Name</th>
+            <td>Nimal</td>
+            <td>Sunil</td>
+        </tr>
+        <tr>
+            <th rowspan="2">contact</th>
+            <td>0789154821</td>
+            <td>0764640457</td>
+        </tr> 
+        <tr>
+            <!-- <th>contact</th> -->
+            <td>07892454821</td>
+            <td>21123545454</td>
+        </tr>
     </table>
 
     <p id="serif">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos suscipit nam doloremque sed velit, ipsum
