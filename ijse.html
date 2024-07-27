@@ -12,8 +12,13 @@
         } */
 
         /* child selector */
-        div>p{
+        /* div>p{
             background-color: red;  
+        } */
+
+        /* Adjacent sibling selector */
+        div+p {
+            background-color: red;   
         }
 
         /* * {
@@ -95,15 +100,16 @@
                 <div>
                     <p>para inside section,span,div</p>
                 </div>
-                <p>para inside section and span</p>
+                <p>para inside section and span and directly after div element</p>
             </span>
         </section>
         <p>para inside direct div below section</p>
     </div>
+    <p>para directly after div</p>
     <section>
         <p>Para outside the div</p>
     </section>
-
+    <p>para directly after section</p>
     <table border="1" style="border-collapse: collapse;">
         <tr> <!-- table row -->
             <th colspan="2">Name</th><!-- table headers -->
