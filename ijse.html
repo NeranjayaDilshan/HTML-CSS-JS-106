@@ -5,9 +5,15 @@
     <title>IJSE Website</title>
 
     <style>
-        div p {
+        /* descendent selector */
+        /* div p {
             background-color: red;
             font-style: italic;
+        } */
+
+        /* child selector */
+        div>p{
+            background-color: red;  
         }
 
         /* * {
@@ -86,9 +92,13 @@
         <section>
             <p>para Inside Section</p>
             <span>
+                <div>
+                    <p>para inside section,span,div</p>
+                </div>
                 <p>para inside section and span</p>
             </span>
         </section>
+        <p>para inside direct div below section</p>
     </div>
     <section>
         <p>Para outside the div</p>
