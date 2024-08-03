@@ -133,7 +133,21 @@
         console.log("maths == sinhala : ", maths == sinhala);//false
         console.log("maths != sinhala : ", maths != sinhala);//true
 
+        // Logical Operator (&&,||,!)
 
+        // && (logical and) - both conditions should be true
+        // || (logical or)  - alteast one condition should be true
+        //  ! (logical not) - opposite
+
+        console.log("(maths > sinhala) && (maths > 98) : ", (maths > sinhala) && (maths > 98));// false
+        console.log("(maths > sinhala) && (maths < 98) : ", (maths > sinhala) && (maths < 98));// true
+
+
+        console.log("(maths > sinhala) || (maths > 98) : ", (maths > sinhala) || (maths > 98));// true
+        console.log("(maths < sinhala) || (maths < 98) : ", (maths < sinhala) || (maths < 98));// true
+        console.log("(maths < sinhala) || (maths > 98) : ", (maths < sinhala) || (maths > 98));// false
+
+        console.log("!(maths == 95) : ", !(maths == 95));
 
 
     </script>
