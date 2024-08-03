@@ -31,7 +31,7 @@
                 <img src="/assets/ijse@1x.png" alt="IJSE LOGO">
             </div>
             <h1 class="text-center">Login Page</h1>
-            <form>
+            <form onsubmit="validate(event)">
                 <div class="form-group mb-3">
                     <label for="email" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="email" placeholder="name@example.com">
@@ -41,10 +41,8 @@
                     <input type="password" class="form-control" id="password" placeholder="name@example.com">
                 </div>
                 <div class="form-group mb-3">
-                    <button type="button" class="btn btn-primary w-100">Login</button>
+                    <button type="submit" class="btn btn-primary w-100">Login</button>
                 </div>
-
-
             </form>
         </div>
     </div>
@@ -53,7 +51,28 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
+
     <script>
+        function validate(event) {
+            event.preventDefault();
+            console.log("===================");ෆ
+            
+            let email = document.getElementById('email').value;
+            console.log("Email : ", email);
+            let password = document.getElementById('password').value;
+            console.log("Password : ", password);
+
+            if (email != '' && password != '') {
+                console.log("Form is valid");
+            } else {
+                console.log("Form is invalid")
+            }
+
+
+        }
+    </script>
+
+    <!-- <script>
         // alert
         // window.alert("Hello JS CMJD 106")
 
@@ -276,7 +295,9 @@
         }
         console.log("Arrow Function : ", arrow_function(30, 50));
 
-    </script>
+    </script> -->
+
+
 </body>
 
 </html>
