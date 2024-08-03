@@ -5,6 +5,7 @@
     <title>Web Development</title>
     <meta name="keywords" content="html, css, js,web page">
     <meta name="description" content="this is my web page developed by html, css and js">
+    <meta name="viewport" content="width=device-width,inital-scale=1.0">
     <style>
         body {
             margin: 0;
@@ -82,6 +83,19 @@
 
         .col-2 {
             width: 40%;
+        }
+
+        @media(max-width:425px) {
+            .header {
+                display: block;
+            }
+
+            .logo,
+            .nav {
+                width: 100%;
+                text-align: center;
+            }
+
         }
     </style>
 </head>
