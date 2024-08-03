@@ -1,0 +1,65 @@
+<!DOCTYPE hmtl>
+<html>
+
+<head>
+    <title>Web Development</title>
+    <meta name="keywords" content="html, css, js,web page">
+    <meta name="description" content="this is my web page developed by html, css and js">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .header {
+            background-color: antiquewhite;
+            display: flex;
+            flex-direction: row;
+            padding: 5px 10px;
+        }
+
+        .logo {
+            width: 30%;
+            /* background: red; */
+        }
+
+        .nav {
+            width: 70%;
+        }
+
+        .nav_bar {
+            list-style-type: none;
+        }
+
+        .nav_bar>li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .nav_bar>li:hover{
+            color: red;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="header">
+        <!-- logo -->
+        <div class="logo">
+            <img src="https://www.ijse.lk/images/logos/ijse@1x.png" alt="">
+        </div>
+
+        <!-- nav -->
+        <div class="nav">
+            <ul class="nav_bar">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
