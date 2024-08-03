@@ -21,13 +21,30 @@
             right: 0;
             width: 200px;
         }
+
+        .relative_absolute {
+            border: 1px solid red;
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+
+        .absolute {
+            position: absolute;
+            border: 1px solid green;
+            top: 80px;
+            right: 10px;
+        }
     </style>
 </head>
 
 <body>
 
+    <!-- relative -->
     <!-- <div class="relative"> Position Relative Element </div> -->
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cupiditate, aliquid, asperiores rem et
+
+    <!-- fixed -->
+    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cupiditate, aliquid, asperiores rem et
         mollitia aliquam ut corporis expedita, neque consequatur! Quaerat labore consequuntur excepturi pariatur
         officiis, atque nostrum ipsam.</p>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cupiditate, aliquid, asperiores rem et
@@ -36,7 +53,22 @@
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cupiditate, aliquid, asperiores rem et
         mollitia aliquam ut corporis expedita, neque consequatur! Quaerat labore consequuntur excepturi pariatur
         officiis, atque nostrum ipsam.</p>
-    <div class="fixed">Postion Fixed Element</div>
+    <div class="fixed">Postion Fixed Element</div> -->
+
+    <!-- absolute  -->
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cupiditate, aliquid, asperiores rem et
+        mollitia aliquam ut corporis expedita, neque consequatur! Quaerat labore consequuntur excepturi pariatur
+        officiis, atque nostrum ipsam.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cupiditate, aliquid, asperiores rem et
+        mollitia aliquam ut corporis expedita, neque consequatur! Quaerat labore consequuntur excepturi pariatur
+        officiis, atque nostrum ipsam.</p>
+
+    <div class="relative_absolute">Position Relative Element
+        <div class="absolute">
+            Positon Absolute Element
+        </div>
+    </div>
 </body>
 
 </html>
