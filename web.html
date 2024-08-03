@@ -35,8 +35,38 @@
             margin-right: 20px;
         }
 
-        .nav_bar>li:hover{
+        .nav_bar>li:hover {
             color: red;
+            cursor: pointer;
+        }
+
+        .home-image {
+            height: 600px;
+            background-image: url('/assets/download.jpg');
+            background-size: cover;
+            position: relative;
+        }
+
+        .home-text {
+            width: 40%;
+            background-color: rgba(236, 240, 241, 0.75);
+            padding: 25px 40px;
+            position: absolute;
+            right: 200px;
+            top: 200px;
+            border-radius: 15px;
+            text-align: end;
+        }
+
+        .home-text>a {
+            border: 1px solid red;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        .home-text>a:hover {
+            background-color: red;
+            color: white;
             cursor: pointer;
         }
     </style>
@@ -60,6 +90,20 @@
             </ul>
         </div>
     </div>
+
+    <!-- body-content -->
+    <div class="body-content">
+        <div class="home-image">
+            <div class="home-text">
+                <h1>Welcome To <span style="color: red;">IJSE</span> </h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur eaque amet veniam odio
+                    distinctio repudiandae, nihil, quod eveniet asperiores accusantium maxime, ut perspiciatis! Qui
+                    minus eius ipsa cumque, dolorem vero.</p>
+                <a>Visit IJSE</a>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
